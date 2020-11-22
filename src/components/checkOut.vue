@@ -1,6 +1,5 @@
 <template>
     <div>
-        <form>
         <validation-provider rules="required|email" v-slot="{ errors }">
         <div class="form-group">
         <label for="email">Email</label>
@@ -9,7 +8,7 @@
         <span>{‌{ errors[0] }}</span>
         </div>
         </validation-provider>
-        </form>
+        
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 mt-3">
                 <form>
