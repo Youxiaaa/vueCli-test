@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/functions';
+@import './variables';
+@import '~bootstrap/scss/bootstrap';
+@import './Dashboard';
+
+html,body{
+    border : none;
+}
+
+.productCard{
+    transition: .2s;
+}
+
+.productCard:hover{
+    transform: scale(1.1);
+}
